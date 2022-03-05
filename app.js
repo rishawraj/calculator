@@ -50,6 +50,7 @@ class Calculator {
         result = prev / current;
         break;
     }
+
     this.currentOperand = result;
     this.operation = undefined;
     this.previouseOperand = "";
